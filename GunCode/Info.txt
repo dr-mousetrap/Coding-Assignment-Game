@@ -1,1 +1,2 @@
-
+Gun Code for Full game, simply shoots bullets and changes direction.
+Enemy shoot code is included
