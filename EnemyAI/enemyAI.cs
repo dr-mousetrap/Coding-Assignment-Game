@@ -11,6 +11,8 @@ public class enemyAI : MonoBehaviour
     public float speed = 200f;
     public float nextWaypointDistance = 3f;
 
+    public Transform enemyGFX;
+    
     Path path;
     int currentWaypoint = 0;
     bool reachedEndOfPath = false;
@@ -74,5 +76,7 @@ public class enemyAI : MonoBehaviour
         {
             currentWaypoint++;
         }
+
+        
     }
 }
